@@ -16,10 +16,10 @@ namespace ArnabDeveloper.HttpHealthCheck.DITests
             IHealthCheck healthCheck = serviceProvider.GetRequiredService<IHealthCheck>();
 
             Assert.NotNull(healthCheck);
-            
-            bool isGoogleHealthy = healthCheck.IsHealthy("http://google.com");            
+
+            bool isGoogleHealthy = healthCheck.IsHealthy("http://google.com");
             Assert.True(isGoogleHealthy);
-            
+
             bool isMicrosoftHealthy = healthCheck.IsHealthy("http://microsoft.com");
             Assert.True(isMicrosoftHealthy);
         }

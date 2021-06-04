@@ -1,18 +1,18 @@
-# HTTP health check
+# HTTP health check DI
 
-[![CI CD](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck/actions/workflows/ci-cd.yml)
-![Nuget](https://img.shields.io/nuget/v/ArnabDeveloper.HttpHealthCheck)
+[![CI CD](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml)
+![Nuget](https://img.shields.io/nuget/v/ArnabDeveloper.HttpHealthCheck.DI)
 
-This is a library to check health of HTTP endpoint.
+This is a library to HTTP health check dependency injection for ASP.NET 5.
 
 ## How to install
 
 This library has been hosted in 
-[NuGet](https://www.nuget.org/packages/ArnabDeveloper.HttpHealthCheck/). 
+[NuGet](https://www.nuget.org/packages/ArnabDeveloper.HttpHealthCheck.DI/). 
 Use below command to install this in your .NET application.
 
 ```
-dotnet add package ArnabDeveloper.HttpHealthCheck
+dotnet add package ArnabDeveloper.HttpHealthCheck.DI
 ```
 
 ## How to use
@@ -30,9 +30,9 @@ how you can use this library in your app.
 
 ## License
 
-[MIT License](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck/blob/main/LICENSE)
+[MIT License](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/blob/main/LICENSE)
 
 ## Contributing
 
-Please read [this](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck/blob/main/CONTRIBUTING.md) 
+Please read [this](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/blob/main/CONTRIBUTING.md) 
 for contribution related guidelines.
