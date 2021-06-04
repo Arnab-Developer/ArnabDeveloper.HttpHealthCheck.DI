@@ -3,7 +3,7 @@
 [![CI CD](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml)
 ![Nuget](https://img.shields.io/nuget/v/ArnabDeveloper.HttpHealthCheck.DI)
 
-This is a library to HTTP health check dependency injection for ASP.NET 5.
+This is a library for HTTP health check dependency injection for ASP.NET 5.
 
 ## How to install
 
