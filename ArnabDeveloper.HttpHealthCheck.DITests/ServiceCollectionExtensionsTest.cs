@@ -1,6 +1,7 @@
 using ArnabDeveloper.HttpHealthCheck.DI;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace ArnabDeveloper.HttpHealthCheck.DITests
@@ -8,7 +9,7 @@ namespace ArnabDeveloper.HttpHealthCheck.DITests
     public class ServiceCollectionExtensionsTest
     {
         [Fact]
-        public void Can_AddHttpHealthCheck_InjectDependency()
+        public async Task Can_AddHttpHealthCheck_InjectDependency()
         {
             IServiceCollection services = new ServiceCollection();
             services.AddHttpHealthCheck();
@@ -17,10 +18,10 @@ namespace ArnabDeveloper.HttpHealthCheck.DITests
 
             Assert.NotNull(healthCheck);
 
-            bool isGoogleHealthy = healthCheck.IsHealthy("http://google.com");
+            bool isGoogleHealthy = await healthCheck.IsHealthyAsync("http://google.com");
             Assert.True(isGoogleHealthy);
 
-            bool isMicrosoftHealthy = healthCheck.IsHealthy("http://microsoft.com");
+            bool isMicrosoftHealthy = await healthCheck.IsHealthyAsync("http://microsoft.com");
             Assert.True(isMicrosoftHealthy);
         }
     }
