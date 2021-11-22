@@ -1,7 +1,5 @@
 using ArnabDeveloper.HttpHealthCheck.DI;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace ArnabDeveloper.HttpHealthCheck.DITests
