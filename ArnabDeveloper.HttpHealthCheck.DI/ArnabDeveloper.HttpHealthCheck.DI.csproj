@@ -11,9 +11,9 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI</RepositoryUrl>
     <PackageTags>dot-net,http-health-check,c-sharp,DI</PackageTags>
-    <PackageReleaseNotes>dotnet 6 upgrade</PackageReleaseNotes>
-    <Version>1.0.3</Version>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>NuGet readme</PackageReleaseNotes>
+    <Version>1.0.4</Version>
+    <PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
@@ -21,7 +21,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ArnabDeveloper.HttpHealthCheck" Version="1.0.4" />
+    <PackageReference Include="ArnabDeveloper.HttpHealthCheck" Version="1.0.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
       <PrivateAssets>all</PrivateAssets>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\NuGetReadme.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">

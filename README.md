@@ -1,11 +1,8 @@
 # HTTP health check DI
 
-[![CI CD](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/actions/workflows/ci-cd.yml)
-![Nuget](https://img.shields.io/nuget/v/ArnabDeveloper.HttpHealthCheck.DI)
-
 This is a library for 
 [HTTP health check](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck) 
-dependency injection for ASP.NET 5. It has been hosted in 
+dependency injection for ASP.NET. It has been hosted in 
 [NuGet](https://www.nuget.org/packages/ArnabDeveloper.HttpHealthCheck.DI/). 
 Use below command to install this in your .NET application.
 
@@ -13,13 +10,11 @@ Use below command to install this in your .NET application.
 dotnet add package ArnabDeveloper.HttpHealthCheck.DI
 ```
 
-Use the below code in `Startup.cs` to add HTTP health check into ASP.NET DI.
+Use the below code in `Program.cs` to add HTTP health check into ASP.NET DI.
 
 ```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddHttpHealthCheck();
-}
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHttpHealthCheck();
 ```
 
 There is a 
