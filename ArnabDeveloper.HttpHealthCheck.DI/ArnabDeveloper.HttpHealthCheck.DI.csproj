@@ -11,8 +11,8 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI</RepositoryUrl>
     <PackageTags>dot-net,http-health-check,c-sharp,DI</PackageTags>
-    <PackageReleaseNotes>NuGet readme</PackageReleaseNotes>
-    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Update nuget readme</PackageReleaseNotes>
+    <Version>1.0.5</Version>
     <PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

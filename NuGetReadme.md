@@ -1,5 +1,2 @@
-This is a library for 
-[HTTP health check](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck) 
-dependency injection for ASP.NET.
-
-Read more [here](https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI/blob/main/README.md).
+This is a library to add [HTTP health check](https://www.nuget.org/packages/ArnabDeveloper.HttpHealthCheck) 
+into ASP.NET DI.
