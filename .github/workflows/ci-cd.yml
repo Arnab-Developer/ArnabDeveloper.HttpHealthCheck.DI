@@ -46,7 +46,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
         with:
-          language: csharp
+          languages: csharp
         
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
