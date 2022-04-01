@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Arnab Roy Chowdhury</Authors>
-    <Description>HTTP health check dependency injection for ASP.NET 5</Description>
+    <Description>HTTP health check dependency injection for ASP.NET</Description>
     <Copyright>Copyright (c) 2022 Arnab Roy Chowdhury</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Arnab-Developer/ArnabDeveloper.HttpHealthCheck.DI</PackageProjectUrl>
